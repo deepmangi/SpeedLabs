@@ -46,7 +46,6 @@ public class BrowserSetup {
 
 		browsercontext = browser.newContext(new Browser.NewContextOptions().setStorageStatePath(Paths.get("login.json"))
 				.setViewportSize((int) viewportWidth, (int) viewportHeight)
-//	                .setViewportSize(390,844)
 				.setAcceptDownloads(true));
 
 		browsercontext.addInitScript(

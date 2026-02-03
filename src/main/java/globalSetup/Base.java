@@ -12,7 +12,5 @@ public interface Base {
 	
 	LoginLocators ln = new LoginLocators();
 	TC001Locators tc1 = new TC001Locators();
-//	TC002Locators tc2 = new TC002Locators();
-//	TC003Locators tc3 = new TC003Locators();
 	
 }

@@ -34,19 +34,6 @@ public class GeneralMethods implements Base {
 	 * @return Void
 	 * @throws Exception
 	 **/
-//	public void open(String url) throws Exception {
-//		try {
-//			GeneralMethods.page = BrowserSetup.getDefaultPage();
-//			page.navigate(url);
-//		} catch (TimeoutError e) {
-//			try {
-//				GeneralMethods.page = BrowserSetup.getDefaultPage();
-//				page.navigate(url);
-//			} catch (TimeoutError e2) {
-//				throw new Exception("Cannot navigate to url:- " + url);
-//			}
-//		}
-//	}
 	public void open(String url) throws Exception {
 	    try {
 	        // Check if page exists and is not closed
